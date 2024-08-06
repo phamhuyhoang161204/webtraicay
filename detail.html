@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <title>Detail Product</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <form class="search" action="">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Tìm kiếm sản phẩm">
+            </form>
+            <div class="name">
+                <h3>Hoàng</h3>
+            </div>
+            <div class="function">
+                <div class="function-1">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="function-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="function-3">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header-2">
+            <div class="menu">
+                <div class="menu-2">
+                    <a class="menu-3" href="">
+                        <i class="fa-solid fa-bars"></i> &nbsp;
+                        Cửa hàng theo danh mục
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Danh mục 1</a>
+                        <a href="#">Danh mục 2</a>
+                        <a href="#">Danh mục 3</a>
+                    </div>
+                </div>
+                <ul class="menu-1">
+                    <li><a href="./home.html">Trang Chủ</a></li>
+                    <li><a href="./shop.html">Cửa Hàng</a></li>
+                    <li><a href="#">Trang</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="./contact.html">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-3">
+            <a href="">Home</a><i class="fa-solid fa-chevron-right"></i>
+            <a href="">Shop</a><i class="fa-solid fa-chevron-right"></i>
+            <p>Ergonomic Concrete Lamp</p>
+        </div>
+    </header>
+    <article>
+        <div class="detail">
+            <div class="detail-1">
+                <img src="./img/sp-1.jpg" alt="Ergonomic Concrete Lamp">
+            </div>
+            <div class="detail-2">
+                <h3>Ergonomic Concrete Lamp</h3>
+                <div class="pricedetail">
+                    <span>530,000 <p>đ</p> </span>
+                    <del>530,000 <p>đ</p></del>
+                </div>
+                <p>Aperiam cum placeat aliquid et veritatis aut nostrum dolor. Eligendi id ut qui commodi nemo. In consequatur modi voluptatem omnis facere quasi ex.</p>
+                <div class="size">
+                    <h4>Size</h4>
+                    <ul>
+                        <li><span>S</span></li>
+                        <li><span>M</span></li>
+                        <li><span>L</span></li>
+                    </ul>
+                </div>
+                <div class="color">
+                    <h4>Color</h4>
+                    <ul class="color-1">
+                        <li><span style="background-color: #000;"></span></li>
+                        <li><span style="background-color: #fff;"></span></li>
+                        <li><span style="background-color: #e74c3c;"></span></li>
+                    </ul>
+                </div>
+                <div class="quantity">
+                    <div class="quantity-controls">
+                        <button class="quantity-btn" id="decrease-btn">-</button>
+                        <input type="number" id="quantity-input" value="1" min="1">
+                        <button class="quantity-btn" id="increase-btn">+</button>
+                        <button class="buy">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mieuta">
+            <h3 id="description-title" class="active">Description</h3>
+            <h3 id="additional-info-title">Additional Information</h3>
+        </div>
+        <div class="content">
+            <div class="mieuta-1 active">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem.</p>
+            </div>
+            <div class="mieuta-2">
+                <p>Miêu tả 2</p>
+            </div>
+        </div>
+        <div class="related">
+            <span class="related-1"></span>
+            <span class="related-2">Related products</span>
+            <span class="related-1"></span>
+        </div>
+        <div class="relatedproduct-1">
+            <div class="shopproduct">
+                <div class="product-2">
+                    <img src="./img/sp-2.jpg" alt="">
+                    <div class="product-3">
+                        <div class="iconproduct">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <div class="iconproduct">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="saleproducts-3">
+                    <a class="nameproduct" href="">Sản phẩm</a>
+                    <div class="priceproduct">
+                        <span>530,000 <p>đ</p> </span>
+                        <del>530,000 <p>đ</p></del>
+                    </div>
+                    <button>Xem chi tiết</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </article>
+    <footer>
+        <div class="telephone">
+            <div class="telephone-1">
+                <i class="fa-solid fa-headphones-simple"></i>
+                <div class="call">
+                    <h3>CALL US 24/7</h3>
+                    <h2>0328937862</h2>
+                </div>
+            </div>
+            <div class="telephone-2">
+                <h3>FOLLOW US</h3>
+                <div class="follow">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="telephone-3">
+                <img src="./img/footer-1.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="information">
+            <div class="store">
+                <h3>STORE LOCATION</h3>
+                <p>57/06 Ngô Thị Nhậm,Hòa Khánh Nam , Liên Chiểu .Đà Nẵng</p>
+                <p> contact@example.com</p>
+            </div>
+            <div class="store">
+                <h3>INFORMATION</h3>
+                <p>About us</p>
+                <p>Blog</p>
+                <p>Check out</p>
+                <p>Contact</p>
+                <p>Service</p>
+            </div>
+            <div class="store">
+                <h3>CONTACT INFORMATION</h3>
+                <p>My Account</p>
+                <p>Contact</p>
+                <p>Shopping cart</p>
+                <p>Shop</p>
+            </div>
+            <div class="store">
+                <h3>CATEGORIES</h3>
+                <p>Fruits & Vegetables</p>
+                <p>Dairy Products</p>
+                <p>Package Foods</p>
+                <p>Beverage</p>
+                <p>Health & Wellness</p>
+            </div>
+            <div class="store">
+                <h3>SUBSCRIBE US</h3>
+                <p>Sign up and get a voucher of worth $250.00</p>
+                <form class="email" action="">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Email adderss ...">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="information-1">
+            <a href="">Phạm Huy Hoàng</a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        document.getElementById('decrease-btn').addEventListener('click', function () {
+            var quantityInput = document.getElementById('quantity-input');
+            var currentValue = parseInt(quantityInput.value);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+    
+        document.getElementById('increase-btn').addEventListener('click', function () {
+            var quantityInput = document.getElementById('quantity-input');
+            var currentValue = parseInt(quantityInput.value);
+            quantityInput.value = currentValue + 1;
+        });
+    </script>
+    
+    <script src="./an.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./shop.css">
+    <title>Shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <form class="search" action="">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Tìm kiếm sản phẩm">
+            </form>
+            <div class="name">
+                <h3>Hoàng</h3>
+            </div>
+            <div class="function">
+                <div class="function-1">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="function-2">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="function-3">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header-2">
+            <div class="menu">
+                <div class="menu-2">
+                    <a class="menu-3" href="">
+                        <i class="fa-solid fa-bars"></i> &nbsp;
+                        Cửa hàng theo danh mục
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Danh mục 1</a>
+                        <a href="#">Danh mục 2</a>
+                        <a href="#">Danh mục 3</a>
+                    </div>
+                </div>
+                <ul class="menu-1">
+                    <li><a href="./home.html">Trang Chủ</a></li>
+                    <li><a href="./shop.html">Cửa Hàng</a></li>
+                    <li><a href="#">Trang</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="./contact.html">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-3">
+            <img src="./img/shop.jpg" alt="">
+            <h3>Shop</h3>
+            <div class="header-3-1">
+                <a href="">Home <i class="fa-solid fa-chevron-right"></i></a> &nbsp; <h4>Shop</h4>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="explore">
+            <div class="explore-1">
+                <h3>Explore</h3>
+                <hr>
+                <ul class="explore-2">
+                    <li><i class="fa-solid fa-caret-right"></i> &nbsp;<a href="">Sản phẩm 1</a></li>
+                    <li><i class="fa-solid fa-caret-right"></i> &nbsp;<a href="">Sản phẩm 1</a></li>
+                    <li><i class="fa-solid fa-caret-right"></i> &nbsp;<a href="">Sản phẩm 1</a></li>
+                    <li><i class="fa-solid fa-caret-right"></i> &nbsp;<a href="">Sản phẩm 1</a></li>
+                    <li><i class="fa-solid fa-caret-right"></i> &nbsp;<a href="">Sản phẩm 1</a></li>
+                </ul>
+            </div>
+            <div class="price-slider">
+                <label for="priceRange">Chọn khoảng giá:</label>
+                <input type="range" id="priceRange" name="priceRange" min="0" max="1000" step="10" value="500" oninput="updatePriceDisplay(this.value)">
+                <div class="price-display">
+                    <span id="priceDisplay">500</span> <span>đ</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="product">
+            <div class="freshio-sorting">
+                <p>Showing 1–12 of 40 results</p>
+                <form class="freshio-sorting-1" action="">
+                    <select name="" id="">
+                        <option value="">Default sorting</option>
+                        <option value="">Default sorting</option>
+                        <option value="">Default sorting</option>
+                        <option value="">Default sorting</option>
+                    </select>
+                </form>
+            </div>
+            <hr class="custom-hr">
+            <div class="product-1">
+                <div class="shopproduct">
+                    <div class="product-2">
+                        <img src="./img/sp-2.jpg" alt="">
+                        <div class="product-3">
+                            <div class="iconproduct">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="iconproduct">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saleproducts-3">
+                        <a class="nameproduct" href="">Sản phẩm</a>
+                        <div class="priceproduct">
+                            <span>530,000 <p>đ</p> </span>
+                            <del>530,000 <p>đ</p></del>
+                        </div>
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="shopproduct">
+                    <div class="product-2">
+                        <img src="./img/sp-2.jpg" alt="">
+                        <div class="product-3">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon-wrapper">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saleproducts-3">
+                        <a class="nameproduct" href="">Sản phẩm</a>
+                        <div class="priceproduct">
+                            <span>530,000 <p>đ</p> </span>
+                            <del>530,000 <p>đ</p></del>
+                        </div>
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="shopproduct">
+                    <div class="product-2">
+                        <img src="./img/sp-2.jpg" alt="">
+                        <div class="product-3">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div class="icon-wrapper">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saleproducts-3">
+                        <a class="nameproduct" href="">Sản phẩm</a>
+                        <div class="priceproduct">
+                            <span>530,000 <p>đ</p> </span>
+                            <del>530,000 <p>đ</p></del>
+                        </div>
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
+    <footer>
+        <div class="telephone">
+            <div class="telephone-1">
+                <i class="fa-solid fa-headphones-simple"></i>
+                <div class="call">
+                    <h3>CALL US 24/7</h3>
+                    <h2>0328937862</h2>
+                </div>
+            </div>
+            <div class="telephone-2">
+                <h3>FOLLOW US</h3>
+                <div class="follow">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="telephone-3">
+                <img src="./img/footer-1.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="information">
+            <div class="store">
+                <h3>STORE LOCATION</h3>
+                <p>57/06 Ngô Thị Nhậm,Hòa Khánh Nam , Liên Chiểu .Đà Nẵng</p>
+                <p> contact@example.com</p>
+            </div>
+            <div class="store">
+                <h3>INFORMATION</h3>
+                <p>About us</p>
+                <p>Blog</p>
+                <p>Check out</p>
+                <p>Contact</p>
+                <p>Service</p>
+            </div>
+            <div class="store">
+                <h3>MY ACCOUNT</h3>
+                <p>My Account</p>
+                <p>Contact</p>
+                <p>Shopping cart</p>
+                <p>Shop</p>
+            </div>
+            <div class="store">
+                <h3>CATEGORIES</h3>
+                <p>Fruits & Vegetables</p>
+                <p>Dairy Products</p>
+                <p>Package Foods</p>
+                <p>Beverage</p>
+                <p>Health & Wellness</p>
+            </div>
+            <div class="store">
+                <h3>SUBSCRIBE US</h3>
+                <p>Sign up and get a voucher of worth $250.00</p>
+                <form class="email" action="">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Email adderss ...">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="information-1">
+              <a href="">Phạm Huy Hoàng</a>
+        </div>
+    </footer>
+</body>
+<script src="./slide.js"></script>
+
+</html>
